@@ -82,3 +82,35 @@ h3{
 .logo{
     margin-top: 0;
 }
+
+.quarter2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.q2box{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+
+}
+.bluesquare{
+    border: 3px solid #3882F6;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+.q2p{
+    color: darkslategrey;
+    max-width: 150px;
+}
+.q2head{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    padding: 0;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
