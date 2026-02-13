@@ -8,7 +8,7 @@ body{
 button{
     background-color: #3882F6;
     color: white;
-    padding: 4px 18px;
+    padding: 4px 21px;
     border-radius: 6px;
 }
 .header{
@@ -39,7 +39,7 @@ h3{
 }
 .placeholderimg{
     color: white;
-    background-color: grey;
+    background-color: rgb(109, 109, 117);
     width: 400px;
     height: 180px;
     display: flex;
@@ -93,6 +93,7 @@ h3{
     justify-content: center;
     gap: 45px;
     flex-wrap: wrap;
+    padding-bottom: 80px;
 
 }
 .bluesquare{
@@ -100,6 +101,7 @@ h3{
     width: 150px;
     height: 150px;
     border-radius: 10px;
+    border-width: 4px;
 }
 .q2p{
     color: darkslategrey;
@@ -113,4 +115,97 @@ h3{
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.quarter3{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.quote{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 100;
+    padding-left: 190px;
+    padding-right: 150px;
+    padding-top: 70px;
+    padding-bottom: 0px;
+    margin-bottom: 0;
+
+}
+.boldquote{
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 250px;
+    font-size: 20px;
+    padding-top: 1px;
+    padding-bottom: 65px;
+
+}
+
+.quarter4{
+    display: flex;
+    justify-content: center;
+
+}
+.q4content{
+    display: flex;
+    background-color: #3882f6;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    justify-content: space-around;
+    width: 900px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 6px;
+
+}
+.q4button{
+    display: flex;
+    align-self: center;
+
+}
+.q4text{
+    padding: 0px;
+    margin: 0;
+    align-self: center;
+
+}
+.boldphrase{
+    font-weight: 900;
+    color: #F9FAF8;
+    font-size: 20px;
+    padding-top: 25px;
+    margin: 0;
+}
+.normaltext{
+    padding-bottom: 25px;
+    margin: 0;
+}
+.button2{
+    border-color: white;
+}
+.footer{
+    background-color: #1F2937;
+}
+.copyright{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px;
+}
+a{
+    text-decoration: none;
+    color: #F9FAF8;
+}
+a:hover{
+    color: cyan;
+}
+button:hover{
+    color: cyan;
 }
